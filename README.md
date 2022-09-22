@@ -1,7 +1,7 @@
 # Tech School em construção...
 
 <p align="center">
-  <img alt="Preview" src="./.github/preview/image_1.png">
+  <img alt="Preview" src="./.github/preview/1.png">
 </p>
 
 ## Tecnologias
