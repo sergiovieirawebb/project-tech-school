@@ -1,0 +1,28 @@
+{
+  "name": "tech-school",
+  "version": "1.0.0",
+  "description": "Gerencie os alunos e os cursos da sua escola de tecnologia.",
+  "main": "src/server.js",
+  "scripts": {
+    "database": "npx sequelize db:drop && npx sequelize db:create && npx sequelize db:migrate && npx sequelize db:seed:all",
+    "dev": "nodemon --watch src src/server.js"
+  },
+  "keywords": [
+    "gereciador de escola"
+  ],
+  "author": "SerjoWebb",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.0",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "nodemon": "^2.0.20"
+  }
+}
