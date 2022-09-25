@@ -12,6 +12,13 @@ const courseSchema = (sequelize, DataTypes) => {
     timestamps: false,
   });
 
+  courseTable.associate = (models) => {
+    courseTable.hasMany(models.Student, {
+      foreignKey: 'id_course',
+      as: 'students',
+    });
+  };
+
   return courseTable;
 };
 
