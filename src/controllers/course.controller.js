@@ -15,13 +15,13 @@ router.get('/:id', async (req, res) => {
   return res.status(200).json(course);
 });
 
-router.post('/module', async (req, res) => {
-  const newCourseWithModule = await courseService.createCourseWithModule(req.body);
-  return res.status(201).json(newCourseWithModule);
-});
+// router.post('/module', async (req, res) => {
+//   const newCourseWithModule = await courseService.createCourseWithModule(req.body);
+//   return res.status(201).json(newCourseWithModule);
+// });
 
 router.post('/', async (req, res) => {
-  const newCourse = await courseService.create(req.body);
+  const newCourse = await courseService.create(req.body, req.user);
   return res.status(201).json(newCourse);
 });
 

@@ -2,7 +2,7 @@ const { Course, Student } = require('../database/models');
 
 const findAll = async () => {
   const findAllStudents = await Student.findAll({
-    // alias, sort, etc...
+    attributes: { exclude: ['password'] },
     include: { model: Course, as: 'course' },
   });
   return findAllStudents;
@@ -11,7 +11,7 @@ const findAll = async () => {
 // lazyloading
 const findByPk = async (id, includeCourse) => {
   const student = (course) => Student.findByPk(id, course);
-  const attributes = { exclude: ['id_course'] };
+  const attributes = { exclude: ['id_course', 'password'] };
 
   if (includeCourse === 'true') {
     return student({
@@ -25,7 +25,13 @@ const findByPk = async (id, includeCourse) => {
   return student({ attributes });
 };
 
+const create = async (student) => {
+  const createStudent = Student.create(student);
+  return createStudent;
+};
+
 module.exports = {
   findAll,
   findByPk,
+  create,
 };

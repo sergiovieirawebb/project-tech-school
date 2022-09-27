@@ -5,6 +5,10 @@ const studentSchema = (sequelize, DataTypes) => {
     email: DataTypes.STRING,
     birthDate: DataTypes.DATE,
     active: DataTypes.BOOLEAN,
+    idCourse: DataTypes.INTEGER,
+    user: DataTypes.STRING,
+    password: DataTypes.STRING,
+    // role: DataTypes.STRING,
   }, {
     tableName: 'Students',
     underscored: true,

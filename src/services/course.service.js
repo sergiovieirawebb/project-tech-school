@@ -1,11 +1,12 @@
 const { Sequelize, Op } = require('sequelize');
 const config = require('../database/config/config');
-
-const env = process.env.NODE_ENV || 'development';
-const sequelize = new Sequelize(config[env]);
 const {
   Course, Student, Module, CourseModule,
 } = require('../database/models');
+
+const env = process.env.NODE_ENV || 'development';
+const sequelize = new Sequelize(config[env]);
+const error = require('../utils/error');
 
 const findAll = async (search = '') => {
   const findAllCourses = await Course.findAll({
@@ -30,7 +31,13 @@ const findByPk = async (id) => {
   return findAllCourses;
 };
 
-const create = async (course) => {
+const create = async (course, userData) => {
+  const { role } = userData.payload;
+
+  if (role !== 'admin') {
+    throw error(401, 'unauthorized user');
+  }
+
   const createCourse = await Course.create(course);
   return createCourse;
 };

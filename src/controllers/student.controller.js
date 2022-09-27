@@ -15,4 +15,9 @@ router.get('/:id', async (req, res) => {
   return res.status(200).json(student);
 });
 
+router.post('/', async (req, res) => {
+  const newStudent = await studentService.create(req.body);
+  return res.status(200).json(newStudent);
+});
+
 module.exports = router;
