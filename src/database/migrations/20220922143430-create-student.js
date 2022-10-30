@@ -17,7 +17,7 @@ module.exports = {
         unique: true,
       },
       birthDate: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.DATE,
         field: 'birth_date',
       },
