@@ -6,7 +6,7 @@
 
 ## Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 - [Docker](https://www.docker.com/)
 - [NodeJs](https://nodejs.org/)
@@ -27,102 +27,6 @@ Gerencie os alunos e os cursos da sua escola de tecnologia... :)
 - Rode o `npm run dev` para iniciar a aplicação
 
 Por fim, a aplicação estará disponível em `http://localhost:3001/courses`
-
-<!-- ## Rotas da aplicação
-
-- Dica: faça o download do [insomnia](https://insomnia.rest/) para acessar as rotas.
-
-#### Busca todos usuários `GET /users`
-
-> corpo da resposta
-```json
-[
-  {
-    "id": 1,
-    "fullName": "Leonardo",
-    "email": "leo@test.com",
-    "phoneNum": "11942079043"
-  },
-  {
-    "id": 2,
-    "fullName": "Eduardo",
-    "email": "edu@test.com",
-    "phoneNum": "11942079043"
-  }
-]
-```
-
-#### Busca usuário pelo id `GET /users/id`
-
-> corpo da resposta
-```json
-{
-  "id": 1,
-  "fullName": "Leonardo",
-  "email": "leo@test.com",
-  "phoneNum": "11942079043"
-}
-```
-#### Busca usuário pelo id e email `GET /users/search/id?email=emailDoUsuario`
-
-> corpo da resposta
-```json
-{
-  "id": 1,
-  "fullName": "Leonardo",
-  "email": "leo@test.com",
-  "phoneNum": "11942079043"
-}
-```
-
-#### Adiciona um novo usuário `POST /users` 
-
-> corpo do envio
-```json
-{
-  "fullName": "NewUser",
-  "email": "newuser@test.com",
-  "phoneNum": "11942079043"
-}
-
-```
-> corpo da resposta
-```json
-{
-  "id": 10,
-  "fullName": "NewUser",
-  "email": "newuser@test.com",
-  "phoneNum": "11942079043"
-}
-```
-
-#### Atualiza dados do usuário `PUT /users/id` 
-
-> corpo do envio
-```json
-{
-  "fullName": "updateUser",
-  "email": "updateEmail@test.com",
-  "phoneNum": "1190398790"
-}
-
-```
-
-> corpo da resposta
-```json
-{
-  "message": "Usuário atualizado com sucesso!"
-}
-```
-
-#### Remove um usuário `DELETE users/id`
-
-> corpo da resposta
-```json
-{
-  "message": "Usuário removido com sucesso!"
-}
-``` -->
 
 ## Licença
 
