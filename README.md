@@ -1,4 +1,4 @@
-# Tech School em construção...
+# Tech School em construção... 🚧
 
 <p align="center">
   <img alt="Preview" src="./.github/preview/1.png">
