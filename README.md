@@ -15,7 +15,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-API de uma aplicação que gerencia alunos e cursos da sua escola de tecnologia. Em construção... 🚧
+API de uma aplicação que gerencia alunos e cursos de uma escola de tecnologia. Em construção... 🚧
 
 ## Como executar
 
