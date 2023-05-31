@@ -6,16 +6,12 @@
 
 ## Tecnologias
 
-Esse projeto está sendo desenvolvido com as seguintes tecnologias:
+Sérgio está desenvolvendo uma API para uma aplicação de gerenciamento de alunos e cursos em uma escola de tecnologia, utilizando as seguintes ferramentas:
 
 - [Docker](https://www.docker.com/)
 - [NodeJs](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 - [Sequelize](https://sequelize.org/)
-
-## Projeto
-
-API de uma aplicação que gerencia alunos e cursos de uma escola de tecnologia. Em construção... 🚧
 
 ## Como executar
 
