@@ -6,7 +6,7 @@
 
 ## Tecnologias
 
-Sérgio está desenvolvendo uma API para uma aplicação de gerenciamento de alunos e cursos de uma escola de tecnologia, utilizando as seguintes ferramentas:
+Sérgio está desenvolvendo esta API para uma aplicação de gerenciamento de alunos e cursos de uma escola de tecnologia, utilizando as seguintes ferramentas:
 
 - [Docker](https://www.docker.com/)
 - [NodeJs](https://nodejs.org/)
