@@ -6,7 +6,7 @@
 
 ## Tecnologias
 
-API para aplicação de gerenciamento de alunos e cursos de uma escola de tecnologia, utilizando as seguintes ferramentas:
+REST API de uma aplicação para o gerenciamento de alunos e cursos de uma escola de tecnologia, utilizando as seguintes ferramentas:
 
 - [Docker](https://www.docker.com/)
 - [NodeJs](https://nodejs.org/)
