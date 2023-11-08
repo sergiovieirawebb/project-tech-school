@@ -26,4 +26,4 @@ Por fim, a aplicação estará disponível em `http://localhost:3001/courses`
 
 ## Licença
 
-Esse projeto criado por [Sérgio Vieira](https://www.linkedin.com/in/sergiovieirawebb/). E está sob a licença MIT, veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes... :rocket:
+Criado por [Sérgio Vieira](https://www.linkedin.com/in/sergiovieirawebb/). E está sob a licença MIT, veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes... :rocket:
